@@ -68,6 +68,12 @@ Task:
 2) Use .charAt(index) and .length to output characters and size.
 */
 
+let myString="Hello, World!";
+console.log(`String: ${myString}`);
+console.log(`Length: ${myString.length}`);
+console.log(`Character at index 0: ${myString.charAt(0)}`);
+console.log(`Character at index 7: ${myString.charAt(7)}`);
+console.log(`Character at last index: ${myString.charAt(myString.length - 1)}`);
 // ===================================
 // TODO-4: DATE — day, month, and year
 // ===================================
